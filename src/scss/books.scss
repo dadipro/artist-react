@@ -1,0 +1,109 @@
+.books{
+    .books-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+
+        h1{
+            font-size: 50px;
+            letter-spacing: 10px;
+        }
+
+        span{
+            width: 10px;
+            border: 2px solid;
+        }
+    }
+
+    .books-shop{
+        
+
+        .books-1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+
+            span{
+                width: 10px;
+                border: 1px solid;
+            }
+
+            .under-book{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .books-2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            margin-bottom: 70px;
+
+            span{
+                width: 10px;
+                border: 1px solid;
+            }
+
+            .under-book{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .books{
+        .books-shop{
+            .books-1{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            }
+
+            .books-2{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              }
+        }
+    }
+}
+
+@media screen and (min-width: 810px){
+  .books{
+     .books-shop{
+         .books-1{
+            div{
+                img{
+                    width: 99%;
+                }
+            }
+        }
+
+        .books-2{
+            div{
+                img{
+                    width: 99%;
+                }
+            }
+        }
+     }
+  }
+}
+
+@media screen and (min-width: 1200px){
+  
+}

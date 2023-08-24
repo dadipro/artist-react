@@ -1,0 +1,113 @@
+.home-footer{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    display: flex;
+    height: 300px;
+
+    .informations{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 150px;
+        margin-right: 150px;
+        gap: 50px;
+        font-family: sans-serif;
+        border-bottom: 1px solid;
+        margin-bottom: 20px;
+        
+        div{
+            width: 300px;
+ 
+            p{
+                font-size: 20px;
+            }
+
+            span{
+                font-size: 15px;
+            }
+            
+            .input{
+                display: flex;
+                flex-direction: column;
+
+                input{
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    background-color: transparent;
+                    color: white;
+
+                    &:focus{
+                        outline: none;
+                    }
+
+                    &::placeholder{
+                        margin-left: 10px;
+                    }
+                }
+
+                button{
+                   background-color: transparent;
+                   color: white;
+                   border: 1px solid;
+                   height: 28px;
+                   margin-top: 10px;
+                   cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.footer-wix{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    text-align: center;
+    height: 50px;
+    
+    a{
+        color: white;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .home-footer{
+        
+        height: 700px;
+        .informations{
+            margin: 0px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .footer-wix{
+        span{
+            width: 70%;
+            margin:50px 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 810px){
+  .home-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+
+      .informations{
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+      }
+  }
+}
+
+@media screen and (min-width: 1200px){
+    
+}

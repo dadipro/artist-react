@@ -1,0 +1,109 @@
+.events {
+  margin-bottom: 100px;
+}
+.events .event-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.events .event-title span {
+  width: 10px;
+  border: 2px solid;
+}
+.events .event-title h1 {
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+.events .events-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.events .events-info .event-1 {
+  display: flex;
+}
+.events .events-info .event-1 img {
+  margin-right: 100px;
+}
+.events .events-info .event-1 .event-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.events .events-info .event-1 span {
+  margin-top: 30px;
+}
+.events .events-info .event-2 {
+  display: flex;
+}
+.events .events-info .event-2 img {
+  margin-left: 100px;
+}
+.events .events-info .event-2 .event-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.events .events-info .event-2 .event-text .socials {
+  margin-top: 20px;
+}
+.events .events-info .event-2 span {
+  margin-top: 30px;
+}
+.events .events-info .event-3 {
+  display: flex;
+}
+.events .events-info .event-3 img {
+  margin-right: 100px;
+}
+.events .events-info .event-3 .event-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.events .events-info .event-3 .event-text .socials {
+  margin-top: 20px;
+}
+.events .events-info .event-3 span {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  .events .events-info {
+    gap: 20px;
+  }
+  .events .events-info .event-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .events .events-info .event-1 img {
+    margin-left: 100px;
+  }
+  .events .events-info .event-2 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .events .events-info .event-2 img {
+    margin-right: 100px;
+  }
+  .events .events-info .event-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .events .events-info .event-3 img {
+    margin-left: 100px;
+  }
+}/*# sourceMappingURL=events.css.map */

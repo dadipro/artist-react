@@ -1,0 +1,129 @@
+.contact .contact-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.contact .contact-title span {
+  width: 10px;
+  border: 2px solid;
+}
+.contact .contact-title h1 {
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+.contact .contact-agents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.contact .contact-agents .agent-1 {
+  text-align: center;
+}
+.contact .contact-agents .middle {
+  border: 1px solid;
+  height: 100px;
+  margin-top: 10px;
+}
+.contact .contact-agents span {
+  border: 0px solid;
+}
+.contact .contact-agents .agent-2 {
+  text-align: center;
+}
+.contact .last-contact .last-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .last-contact input {
+  width: auto;
+}
+.contact .last-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 10px;
+}
+.contact .last-inputs .inputs {
+  padding: 10px;
+}
+.contact .last-inputs .inputs input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.contact .last-inputs .inputs input:hover {
+  border-bottom: 2px solid;
+}
+.contact .last-inputs .inputs input:focus {
+  border-bottom: 2px solid;
+}
+.contact .last-inputs .message input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 540px;
+  height: 100px;
+  margin-left: 10px;
+}
+.contact .last-inputs .message input:hover {
+  border-bottom: 2px solid;
+}
+.contact .last-inputs .message input:focus {
+  border-bottom: 2px solid;
+}
+.contact .last-inputs button {
+  width: 550px;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: orange;
+  transition: 0.5s;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.contact .last-inputs button:hover {
+  color: black;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 480px) {
+  .contact .contact-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .contact-title h1 {
+    margin-left: 90px;
+  }
+  .contact .contact-agents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .last-contact .last-inputs .inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .last-contact .last-inputs .message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .last-contact .last-inputs .message input {
+    width: 265px;
+  }
+}/*# sourceMappingURL=contact.css.map */

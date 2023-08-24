@@ -1,0 +1,108 @@
+.reviews{
+    .reviews-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+
+        h1{
+            font-size: 50px;
+            letter-spacing: 10px;
+        }
+
+        span{
+            width: 10px;
+            border: 2px solid;
+        }
+
+        
+    }
+
+    .about-reviews{
+        .about-1{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 100px;
+          gap: 50px;
+
+          div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            span{
+                width: 10px;
+                border: 2px solid;
+            }
+            
+            p{
+                text-align: center;
+            }
+
+            h4{
+                margin-top: 50px;
+            }
+          }
+        }
+
+        .about-2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 100px;
+            gap: 50px;
+
+            div{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+             
+              span{
+                width: 10px;
+                border: 2px solid;
+               }
+
+               
+                p{
+                    text-align: center;
+                }
+               
+                h4{
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .reviews{
+        .about-reviews{
+            .about-1{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .about-2{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 810px){
+    
+}
+
+@media screen and (min-width: 1200px){
+  
+}

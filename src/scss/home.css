@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+.home .home-daniel {
+  display: flex;
+  box-sizing: border-box;
+  height: 800px;
+}
+.home .home-daniel .about-daniel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(226, 226, 226);
+}
+.home .home-daniel .about-daniel h1 {
+  font-size: 100px;
+  text-align: center;
+  color: rgb(34, 34, 34);
+}
+.home .home-daniel .about-daniel p {
+  width: 300px;
+  font-size: 20px;
+  text-align: center;
+}
+.home .home-daniel .about-daniel a {
+  color: orange;
+}
+.home .home-daniel .image-daniel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home .home-daniel .image-daniel span {
+  display: block;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  margin-left: 150px;
+  transform: rotate(-10deg) scale(0.9);
+}
+.home .home-books h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 100px 100px;
+}
+.home .home-books .daniel-books {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 100px;
+}
+.home .home-books .daniel-books .book1 {
+  width: 100%;
+}
+.home .home-books .daniel-books .inner-book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.home .home-books .daniel-books .inner-book p {
+  border: 1px solid;
+  width: 30px;
+}
+.home .home-books .daniel-books .book2 {
+  width: 100%;
+}
+.home .daniel-last-book {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.home .daniel-last-book .last-book {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home .daniel-last-book .last-book p {
+  border: 1px solid;
+  width: 30px;
+}
+.home .daniel-last-book .last-book-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  font-style: italic;
+  gap: 5px;
+  line-height: 30px;
+}
+.home .daniel-last-book .last-book-text a {
+  color: orange;
+}
+.home .reviews {
+  background-color: rgb(226, 226, 226);
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home .reviews h1 {
+  text-align: center;
+  font-size: 50px;
+}
+.home .reviews .media-reviews {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  gap: 100px;
+}
+.home .reviews .media-reviews div {
+  width: 250px;
+}
+.home .reviews .media-reviews div p {
+  border: 2px solid;
+  width: 30px;
+  margin-left: 110px;
+}
+.home .reviews .link-reviews {
+  margin-top: 50px;
+}
+.home .reviews .link-reviews a {
+  color: orange;
+}
+
+@media screen and (max-width: 480px) {
+  .home .home-daniel {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 50px;
+  }
+  .home .home-daniel .about-daniel h1 {
+    font-size: 30px;
+  }
+  .home .home-daniel .about-daniel a {
+    margin-bottom: 15px;
+  }
+  .home .home-daniel .image-daniel {
+    margin-bottom: 20px;
+  }
+  .home .home-books h1 {
+    width: 100%;
+    font-size: 25px;
+    margin-left: 0px;
+  }
+  .home .home-books .daniel-books {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+  .home .home-books .daniel-last-book {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home .home-books .daniel-last-book .last-book-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+  }
+  .home .reviews {
+    height: 600px;
+  }
+  .home .reviews .media-reviews {
+    display: block;
+  }
+}
+@media screen and (max-width: 810px) {
+  .home .home-daniel .about-daniel h1 {
+    font-size: 50px;
+  }
+  .home .home-books .daniel-books {
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home .home-books .daniel-last-book {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home .home-books .daniel-last-book .last-book-text {
+    margin-left: 120px;
+  }
+  .home .reviews .media-reviews {
+    gap: 10px;
+  }
+}/*# sourceMappingURL=home.css.map */
